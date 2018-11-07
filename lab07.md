@@ -1,6 +1,8 @@
 # 任务1
 ![](https://img-blog.csdnimg.cn/20181107172921655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQ3OTA5Mg==,size_16,color_FFFFFF,t_70)
 
+图片在github上看不见，图片地址：https://img-blog.csdnimg.cn/20181107172921655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQ3OTA5Mg==,size_16,color_FFFFFF,t_70
+
 （2）1.PC的全称是program counter
 程序计数器，是用来计数的，指示指令在存储器的存放位置，也就是个地址信息。
 
