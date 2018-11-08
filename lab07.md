@@ -1,7 +1,4 @@
 # 任务1
-![](https://img-blog.csdnimg.cn/20181107172921655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQ3OTA5Mg==,size_16,color_FFFFFF,t_70)
-
-图片在github上看不见，图片地址：https://img-blog.csdnimg.cn/20181107172921655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQ3OTA5Mg==,size_16,color_FFFFFF,t_70
 
 （2）1.PC的全称是program counter
 程序计数器，是用来计数的，指示指令在存储器的存放位置，也就是个地址信息。
@@ -12,9 +9,9 @@ IR的全称应该是Instructinon register
 
 2.ACC（Accumulator）是累加器A缩写。累加器A是一个具有特殊用途的二进制8位寄存器，专门用来存放操作数或运算结果。在CPU执行某种运算前，两个操作数中的一个通常应放在累加器A中，运算完成后累加器A中便可得到运算结果。
 
-3.PC从RAM中取指令LOD #3 → 将指令经IR传入Decoder → 将3传入MUX→ALU→ACC
+3.PC从RAM中取指令LOD #1 → 将指令经IR传入Decoder → 将1传入MUX→ALU→ACC
 
-4.PC从RAM中取指令ADD W → 将指令经IR传入Decoder → 将W传入ALU→ACC
+4.PC从RAM中取指令ADD a → 将指令经IR传入Decoder → 将a传入ALU→ACC
 
 5.操作顺序不同
 
@@ -31,11 +28,11 @@ int main()
 
 {
 
-int w = 3;
+int a = 1;
 
-int x = 7;
+int b = 2;
 
-int z = x + w; 
+int c = a + b;
 
 return 0;
 
@@ -92,6 +89,5 @@ return 0;
 
 }
 
-2.[待补充]
 
 3.高级语言如c语言等主要面向对象，让人看得懂；而机器语言（低级语言）是让“机器”看得懂，并执行相应的操作。
