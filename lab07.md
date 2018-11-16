@@ -1,3 +1,5 @@
+防止图片看不见，先备份一下图片：https://blog.csdn.net/weixin_42479092/article/details/84145981
+
 # 任务1
 
 （2）1.PC的全称是program counter
