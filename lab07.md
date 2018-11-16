@@ -22,72 +22,87 @@ IR的全称应该是Instructinon register
 3.16
 
 
-4.#include<stdio.h>
+
+
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2018111621095654.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQ3OTA5Mg==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181116211003496.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQ3OTA5Mg==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181116211012580.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQ3OTA5Mg==,size_16,color_FFFFFF,t_70)
+
+4.
+```
+#include<stdio.h>
 
 int main()
 
 {
 
-int a = 1;
+int w = 1;
 
-int b = 2;
+int x = 2;
 
-int c = a + b;
+int z = w + x;
 
 return 0;
 
 }
- 
+``` 
 
 
 # 任务2
-（1）1.该程序可使整数a从10开始自减1，直到a=1,并得到每一个不同的a值相加的值b。
+（1）1.该程序可使整数x从1开始自增，直到x=10,并得到每一个不同的a值相加的值y。
 
 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181116211042788.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQ3OTA5Mg==,size_16,color_FFFFFF,t_70)
+```
 2.#include<stdio.h>
 
 int main()
 
 {
 
-int a = 10,b=0;
+int x = 1,y=0;
 
-while(a!=0){
+while(x!=10){
 
-    b=b+a;
+    y=y+x;
 
-    a--;
+    x++;
 }
 
-printf("%d",b);
+printf("%d",y);
 
 return 0;
 
 }
- 
+``` 
 
 (2)
 
-1.#include<stdio.h>
+1.
+```
+#include<stdio.h>
 
 int main()
 
 {
 
-int a = 10,b=0;
+int x = 1,y=0;
 
-while(a!=0){
+while(x!=10){
 
-    b=b+a;
+    y=y+x;
 
-    a--;
+    x++;
 }
 
-printf("%d",b);
+printf("%d",y);
 
 return 0;
 
 }
-
+```
 
 3.高级语言如c语言等主要面向对象，让人看得懂；而机器语言（低级语言）是让“机器”看得懂，并执行相应的操作。
+
+另外cpusim运行的速度好慢啊= =
