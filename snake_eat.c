@@ -1,3 +1,14 @@
+/* 
+	snake_eat.c
+	
+	2018.11.30
+	Created by sysu-18342026
+	
+	Use 'w'(up),'s'(down),'a'(left),'d'(right) to move and eat the gold.
+	Be careful not to hit yourseld as well as the wall(*)!
+	
+	Happy playing!
+*/
 
 int main() {
 	
