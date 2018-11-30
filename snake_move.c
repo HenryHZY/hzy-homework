@@ -34,6 +34,7 @@ int gameover();
 
 //the begining
 char map[12][12] = {
+
 					"***********",
     				"*XXXXH    *",
     				"*         *",
@@ -45,6 +46,7 @@ char map[12][12] = {
     				"*         *",
     				"*         *",
     				"***********",
+					
 					};
 
 //the initial position and length	        

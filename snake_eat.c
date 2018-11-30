@@ -55,7 +55,8 @@ int main() {
             map[snake_y[snake_length - 1]][snake_x[snake_length - 1]] = SNAKE_BODY;
         }
         
-        if (gameover()!=1) {								//When the snake hits itself or hits the wall,the game will be over.
+        if (gameover()!=1) {			//When the snake hits itself or hits the wall,
+                                        //the game will be over.
 
             printf("GAMEOVER!\n\nTHANKS FOR PLAYING!\n");
             flag=0;
